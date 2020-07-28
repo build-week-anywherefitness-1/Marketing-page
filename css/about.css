@@ -159,3 +159,24 @@ header ul li{
     padding: 20px;
     margin-bottom: 5px;
 }
+@media (max-width: 1000px){
+
+
+    #header-top{
+        background-color: white;
+        /* border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding-bottom: 2px;
+        margin-bottom: 5px; */
+    }
+    .logo{
+        width: 1000px;
+    }
+    .container{
+        width: 80%;
+    }
+
+}
+@media (max-width:500px){
+
+}
