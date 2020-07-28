@@ -31,40 +31,135 @@ html{
     box-sizing: border-box;
     
 }
-a{
-    text-decoration: none;
-}
+
 
 body{
-    background-color: white;
+    color: #5E6472;
+    background-color: white ;
     font-size: 1.6em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    background-color: white;
     width: 70%;
     margin: 0 auto;
 }
+
+/* Header section including navigation */
+
 header{
-    background-color: #5E6472  ;
-    padding: 5px;
+    padding: 5px;  
 }
-header h1{
-    color: white;
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 3em;
-    margin: 3px;
+
+#header-top{
+    background-color: #AED9E0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
 }
+
+a{
+    text-decoration: none;
+    color: #5E6472;
+    text-shadow: 2px 2px 8px #5E6472;
+}
+a:hover {
+    color: #FAF3DD;
+}
+
+header ul a:link{
+    text-decoration: none;
+    
+}
+
 header ul{
     list-style-type: none;
     padding-right: 20px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 62%;
+    width: 100%;
     align-items: baseline;
-    margin: 10px auto;
+    margin: 5px auto;
 }
-header ul a:link{
-    text-decoration: none;
+
+
+header ul li{
+    font-size: 1.5em;
+    
+}
+
+#header-image img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* end header navigation styling */
+
+/* small description of company */
+h2{
+    font-size: 1.8em;
+}
+h2, p{
+    margin: 10px;
+    text-align: center;
+}
+/* end small description of company */
+
+/* start middle section with images */
+h3{
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pitch-images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.pitch-img{
+    margin: 10px;
+    width: 30%;
+    border-radius: 20px;
+}
+.pitch-img img{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pitch-img div{
+    text-align: center;
+    padding: 5px;
+}
+/* end middle section with images */
+
+/* Bottom navigation bar */
+#bottom-navigation ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: baseline;
+    margin: 5px auto;
+}
+
+#bottom-navigation{
+    
+
+    background-color: #AED9E0;
+    padding: 20px;
+    margin-bottom: 5px;
+    
+
+}
+
+@media (max-width: 500px){
+
 }
